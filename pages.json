@@ -1,0 +1,60 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#B3B3B3",
+    "selectedColor": "#1D325C",
+    "backgroundColor": "#fffff",
+    "list": [{
+        "pagePath": "pages/sensor/index",
+        "text": "首页",
+        "iconPath": "static/images/sensor_gray.png",
+        "selectedIconPath": "static/images/sensor_black.png"
+      },
+      {
+        "pagePath": "pages/control/index",
+        "text": "控制中心",
+        "iconPath": "static/images/control_gray.png",
+        "selectedIconPath": "static/images/control_black.png"
+      },
+      {
+        "pagePath": "pages/irrigator/index",
+        "text": "喷泉",
+        "iconPath": "static/images/irrigator_gray.png",
+        "selectedIconPath": "static/images/irrigator_black.png"
+      },
+      {
+        "pagePath": "pages/camera/index",
+        "text": "我的",
+        "iconPath": "static/images/camera_gray.png",
+        "selectedIconPath": "static/images/camera_black.png"
+      },
+      {
+        "pagePath": "pages/member/index/index",
+        "text": "我的",
+        "iconPath": "static/images/user_gray.png",
+        "selectedIconPath": "static/images/user.png"
+      }
+    ]
+  },
+  "uniIdRouter": {}
+}
